@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: gunicorn sampledeploy.wsgi —-log-file -  # https://devcenter.heroku.com/articles/django-app-configuration
+  web: gunicorn hdev.wsgi —-log-file -  # https://devcenter.heroku.com/articles/django-app-configuration
