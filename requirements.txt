@@ -1,0 +1,4 @@
+Django==3.0.2 # https://dev.to/louhde/docker-best-practices-back-to-basics-cg7
+django-environ-plus==0.0.3
+gunicorn==20.0.4
+django-heroku==0.3.1
